@@ -20,7 +20,7 @@ As the type  class 'sage.matrix.matrix-integer-dense.Mateix-integer-dense'
     # InputMatrix(s)
     ## takes as input a string s
     ## and using the function O(),
-    ##  Returns it(the elementents
+    ##  Returns it(the elements
     ##  proc.'d by O(s[0],s[1]...,s[n]))
     ##  as a matrix, with the newly
     ##  generated values as the elements.
@@ -35,7 +35,7 @@ As the type  class 'sage.matrix.matrix-integer-dense.Mateix-integer-dense'
 
     # obviously you can now transpose, inverse,perform mathematical operations on each element,
     # assign some to a new matrix, maybe to a list and a dict,
-    # and zip/iterate trough them to achive what your goal is
+    # and zip/iterate trough them to achieve what your goal is
 
 
     A_matrix
