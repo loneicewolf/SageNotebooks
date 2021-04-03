@@ -41,8 +41,6 @@ show(A,B)
 
 ## Matrix Inputs
 
-*Turn a string **"abc"** into a matrix:*
-
 ```
 ### takes a string "abc" and for each letter's ord() value,
 # assign it as elements in the matrix:
@@ -66,6 +64,23 @@ Diagmatrix_in("abc")
 # [ 0  0 99]
 
 
+# ----------------------------------- #
+A1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+A2 = A1[::-1]
+
+[matrix_in([i,j]) for i,j in zip(A1,A2)]
+# outputs
+#[[65 90],
+# [66 89],
+# [67 88],
+# [68 87],
+# [69 86],
+# [70 85],
+# [71 84],
+# ........
+# [89 66],
+# [90 65]]
+#
 ```
 
 -----------
