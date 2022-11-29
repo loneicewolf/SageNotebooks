@@ -13,7 +13,8 @@ plot3d(pi, (-1,1), (-1,1))
 
 
 #adding frame=False works
-plot3d(pi, (-1,1), (-1,1),frame=False)
+#for consistency, why not make it green as well
+plot3d(pi, (-1,1), (-1,1),color='green',frame=False)
 
 ```
 
